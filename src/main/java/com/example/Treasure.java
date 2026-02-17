@@ -17,7 +17,7 @@ import java.util.Scanner;
 //Itt jön a bekérőosztály:
 public class Treasure {
     /* A tényelges bekérés a kol megtódusban van */
-    public static void kol() {
+    public static void call() {
         //TODO: Meg kell oldani, ogy Windows terminalban (852) működjön
         /* A try() szerkezet, nem egyenlő a try-catch szerkezettel.
         A try() szerkezet a zárójelben megnyitott fájlt automatikusan
