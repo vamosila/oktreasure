@@ -14,6 +14,7 @@ package com.example;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Műkincs tároló");
-        Treasure.call();
+        String treasureName = Treasure.inputFromConsole();
+        FileHandler.writeFile(treasureName);
     }
 }

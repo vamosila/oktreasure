@@ -17,13 +17,13 @@ import java.nio.charset.Charset;
 import java.time.LocalDate;
 
 /* Az osztály neve: Tame */
-public class Tame {
+public class FileHandler {
     /* Ez egy fájlkezelő osztály. Úgy lett megírva, hogy
     elfogadja a paraméterként egy szöveg. Potosabban a
     benne lévő csa metóuds fogadja a paramétert.
     Jelenleg nincs ellenőrzés, hogy megfelel-e a szöveg.
     Talán nem is lesz, ez még a jövő titka. */
-    public static void csa(String d) {
+    public static void writeFile(String d) {
         //Itt fogadjuk a paramétert a d változóban
         try {
             FileWriter fileWriter = new FileWriter("adat.txt", Charset.forName("utf-8"), true);
