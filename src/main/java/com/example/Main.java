@@ -11,10 +11,12 @@
 
 package com.example;
 
+import com.example.controllers.MainController;
+import com.example.views.MainView;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Műkincs tároló");
-        String treasureName = Treasure.inputFromConsole();
-        FileHandler.writeFile(treasureName);
+        MainController mainController = new MainController(new MainView());
+        mainController.startApp();
     }
 }
