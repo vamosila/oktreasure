@@ -5,6 +5,7 @@
 * Group: szit.hu
 * Date: 2026-02-15
 * Github: https://github.com/oktatrefakt/
+* Refaktorálva: Vámosi László Ádám, SZOFT II-N, 2026-02-17
 * Licenc: MIT
 */
 
